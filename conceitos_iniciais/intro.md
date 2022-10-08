@@ -11,7 +11,7 @@ Pensando na recuperação de versões anteriores estáveis, o versionamento func
 O primeiro problema que surge quando decidimos por não versionar um software é que não teremos uma método produtivo de trabalho em equipe, já que sem o versionamento antes optava-se pela técnica do bloqueio de arquivos impedindo um desenvolvedor de trabalhar em um mesmo arquivo que outro desenvolvedor. Existiam também problemas na organização do código, já que muitas funcionalidades já não mais necessárias não eram apagadas com o receio de que poderiam ser utilizadas em outros momentos.
 
 ## Versionamento com o Git
-![](images/gitLogo.png)
+![](images/gitLogoWhite.png)
 
 Os softwares responsáveis pelo versionamento de outros softwares são chamados de *Sistemas de Controle de Versão* (VCS). O Git, que é um VCS gratuito e open source, trabalha com versionamento *distribuído*.  Os tipos de VCSs que existem foram discutidos no artigo seguinte, antes disso é interessante listar algumas funcionalidades do Git:
 
