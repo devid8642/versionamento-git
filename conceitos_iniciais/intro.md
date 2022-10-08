@@ -1,6 +1,4 @@
 # Introdução ao versionamento
-![](images/versionamento.svg)
-Fonte: https://bitbucket.org/product/br/version-control-software
 
 ## O que é?
 Versionamento significa garantir o rastreamento de todas as alterações feitas em arquivos ao longo do tempo. Ou seja, com um versionador adequado é possível armazenar cada alteração feita em um tipo especial de banco de dados e assim criar um controle das versões desses arquivos. Além disso é possível recuperar versões anteriores, caso as novas versões alcançadas não sejam mais tão interessantes. Os arquivos em questão que trataremos aqui serão arquivos de código-fonte de um software, mas é possível utilizar versionamento com outros tipos de arquivos.
@@ -11,7 +9,6 @@ Pensando na recuperação de versões anteriores estáveis, o versionamento func
 O primeiro problema que surge quando decidimos por não versionar um software é que não teremos uma método produtivo de trabalho em equipe, já que sem o versionamento antes optava-se pela técnica do bloqueio de arquivos impedindo um desenvolvedor de trabalhar em um mesmo arquivo que outro desenvolvedor. Existiam também problemas na organização do código, já que muitas funcionalidades já não mais necessárias não eram apagadas com o receio de que poderiam ser utilizadas em outros momentos.
 
 ## Versionamento com o Git
-![](images/gitLogoWhite.png)
 
 Os softwares responsáveis pelo versionamento de outros softwares são chamados de *Sistemas de Controle de Versão* (VCS). O Git, que é um VCS gratuito e open source, trabalha com versionamento *distribuído*.  Os tipos de VCSs que existem foram discutidos no artigo seguinte, antes disso é interessante listar algumas funcionalidades do Git:
 
