@@ -56,7 +56,7 @@ Para visualizar exatamente as modificações em arquivos utiliza-se o comando `g
 
 Para realizar um commit basta executar `git commit` enviando as versões dos arquivos que estão na área de stage para o banco de dados de versões do Git. Com `git commit -m ""` é possível especificar a mensagem do commit diretamente via linha de comando.
 
-É possível ignorar o stage com o comando `git commit -a -m`, dessa forma todos os arquivos que estão rastreados e modificados e arquivos não rastreados serão automaticamente adicionados a área de stage e commitados. 
+É possível ignorar o stage com o comando `git commit -a -m`, dessa forma todos os arquivos que estão rastreados e modificado serão automaticamente adicionados a área de stage e commitados. 
 
 ### Removendo arquivos
 
