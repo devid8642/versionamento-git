@@ -15,9 +15,9 @@ Fonte: https://git-scm.com
 ## Identificando alterações
 A forma como o Git identifica e registra alterações é usando criptografia SHA-1. A partir do conteúdo de um arquivo o Git, usando esse algoritmo, é capaz de calcular uma sequência de 40 caracteres, essa sequência é chamada de *hash*, que representa o conteúdo do arquivo, pois qualquer alteração que seja feita após o recálculo faz o hash mudar. Mais sobre funções de hash: https://cryptobook.nakov.com/cryptographic-hash-functions
 
-## Os Três Estados
+## As Três Áreas
 
-Para utilizar o Git é preciso ter noção de estados que o Git possibilita que o seus arquivos assumam: o repositório do Git, a área de trabalho e a área de preparo. Na área de trabalho é o onde você geralmente fica em um projeto e é onde você edita os seus arquivos. Esses arquivos são uma cópia de determinada versão de arquivos que estão no banco de dados do Git. Quando você altera esses arquivos você pode enviá-los para a área de preparado, que é basicamente uma área intermediária entre a área de trabalho e o repositório Git. Quando você termina de preparar todos os arquivos que foram editados você pode finalmente enviá-los para o banco de dados do repositório Git, que é onde eles estarão salvos representando uma nova versão do projeto.
+Para utilizar o Git é preciso ter noção de três áreas que o Git possibilita que o seus arquivos estejam: o repositório do Git, a área de trabalho e a área de preparo. Na área de trabalho é o onde você geralmente fica em um projeto e é onde você edita os seus arquivos. Esses arquivos são uma cópia de determinada versão de arquivos que estão no banco de dados do Git. Quando você altera esses arquivos você pode enviá-los para a área de preparado, que é basicamente uma área intermediária entre a área de trabalho e o repositório Git. Quando você termina de preparar todos os arquivos que foram editados você pode finalmente enviá-los para o banco de dados do repositório Git, que é onde eles estarão salvos representando uma nova versão do projeto.
 
 ![](images/areas.png)
 Fonte: https://git-scm.com
