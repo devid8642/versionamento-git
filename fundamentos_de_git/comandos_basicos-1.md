@@ -60,7 +60,9 @@ Para realizar um commit basta executar `git commit` enviando as versões dos arq
 
 ### Removendo arquivos
 
-Inicialmente você pode simplesmente deletar o arquivo da sua área de trabalho, isso será identificado pelo Git e você poderá adicionar essa ação no próximo commit com o `git add`. Outra possibilidade é executar o comando `git rm`, ele irá remover o arquivo da área de stage e também irá removê-lo da área de trabalho. O mais útil é o `git rm --cached` que permite removê-lo do stage sem removê-lo da área de trabalho.
+Inicialmente você pode simplesmente deletar o arquivo da sua área de trabalho, isso será identificado pelo Git (isso se tratando de um arquivo rastreado) e você poderá adicionar essa ação no próximo commit com o `git add`. Outra possibilidade é executar o comando `git rm`, ele irá remover o arquivo da área de stage e também irá removê-lo da área de trabalho. O mais útil é o `git rm --cached` que permite removê-lo do stage sem removê-lo da área de trabalho.
+
+Para arquivos não rastreados deve-se usar o `
 
 ### Renomeando Arquivos
 
