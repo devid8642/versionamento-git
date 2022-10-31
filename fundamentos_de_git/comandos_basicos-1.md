@@ -1,4 +1,4 @@
-w# Comandos Básicos
+# Comandos Básicos
 
 ## Obtendo um repositório
 É possível iniciar um repositório Git em qualquer diretório da sua máquina. Além disso também é possível baixar um repositório Git de qualquer lugar.
