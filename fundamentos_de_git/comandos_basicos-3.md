@@ -12,4 +12,4 @@ As vezes adicionamos arquivos ao stage e queremos removê-lo de lá. Para isso b
 
 ## Desfazendo alterações
 
-Para desfazer alterações em arquivos modificados basta usar o comando `git checkout -- <file>`. Esse comando descarta todas as alterações em um arquivo e faz ele voltar a versão do último commit, essas alterações são completamente perdidas.
+Para desfazer alterações em arquivos modificados basta usar o comando `git checkout -- <file>`. Esse comando descarta todas as alterações em um arquivo e faz ele voltar a versão do último commit, **essas alterações são completamente perdidas**.
