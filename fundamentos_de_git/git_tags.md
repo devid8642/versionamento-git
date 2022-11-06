@@ -23,3 +23,5 @@ Para criar uma tag leve basta não usar parâmetro nenhum na criação da tag co
 ## Enviando tags para o repo remoto
 
 Após criar tags localmente talvez seja interessante enviar as tags para o repo remoto do seu projeto, para isso execute `git push <repo_remoto> <nome_da_tag>` ou então `git push <repo_remoto> --tags` para enviar todas as tags locais. A partir do momento que você clona algum repo remoto ele já ira baixar todas as tags daquele repo.
+
+Ir para: [Trabalhando com ramos no Git](../ramos_git/intro.md)

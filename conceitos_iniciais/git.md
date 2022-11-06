@@ -28,4 +28,4 @@ Como pode ser visto na imagem acima, quando da área de preparo nós enviamos no
 
 A melhor forma de usar o Git é na linha de comando, já que é a única forma de realmente rodar todos os comandos do Git. Portanto deste ponto em diante você precisa saber como usar a linha comando do seu sistema operacional para entender bem o que fazer. Para instalar o Git em seu computador veja: https://git-scm.com/downloads. É muito interessante configurá-lo: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup.
 
-Ir para: [Fundamentos de Git](../fundamentos_de_git/comandos_basicos.md)
+Ir para: [Fundamentos de Git](../fundamentos_de_git/comandos_basicos-1.md)

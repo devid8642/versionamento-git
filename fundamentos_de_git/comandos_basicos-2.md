@@ -41,3 +41,4 @@ Veja mais opções de limitação abaixo:
 
 ![](images/opcoes_limitacao.png)
 
+Ir para: [Comandos Básicos Parte 3](comandos_basicos-3.md)

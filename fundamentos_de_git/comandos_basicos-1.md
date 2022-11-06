@@ -67,3 +67,5 @@ Para arquivos não rastreados deve-se usar o `rm`.
 ### Renomeando Arquivos
 
 Se você simplesmente renomear arquivos com o `mv` o Git irá entender que o arquivo com o nome antigo foi apagado e arquivo com outro nome é um novo arquivo que foi adicionado ao projeto. Para lidar com isso você deverá executa um esqueminha usando `add/rm` para acertarem as coisas. Se você usar o `git mv` ele fará isso por você e irá adicionar o arquivo no stage com indicando que ele foi renomeado.
+
+Ir para: [Comandos Básicos Parte 2](comandos_basicos-2.md)

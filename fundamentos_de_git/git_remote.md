@@ -25,4 +25,4 @@ O que o comando `git pull`faz é simplificar esse processo: ele baixa todas as a
 Caso um repositório remoto não tenha contribuições que você não tenha baixado localmente, você pode enviar novos trabalhos para esse repositório com o comando `git push`. Exemplo de sintaxe: `git push origin master`, isso enviará todas as alterações do seu ramo atual para o ramo master do repositório origin.
 
 
-
+Ir para: [Tags no Git](git_tags.md)
