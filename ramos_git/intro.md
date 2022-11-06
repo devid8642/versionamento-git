@@ -11,10 +11,12 @@ A forma como o Git trabalha com ramos é um dos grandes diferenciais do Git e po
 A forma como o Git trabalha com ramos está profundamente interligada com a forma com que ele armazena commits e os arquivos de um projeto. Cada commit é um objeto que possui um autor, data, mensagem mas principalmente possui uma *tree*. Uma tree é outro objeto que armazena a lista das versões de todos os arquivos e diretórios de um projeto, de determinado commit. Além de tree pode ser chamada também de *snapshot*. Cada versão de um arquivo ou diretório é chamada *blob*. Veja a imagem para entender melhor:
 
 ![](imagens/commit_snapshot.png)
+Fonte: https://git-scm.com
 
 Além disso cada objeto commit contém ponteiros para os commits que vieram antes dele, no caso do commit raiz esse ponteiro não está definido, para um commit normal esse ponteiro aponta para o commit anterior e se for um commit resultante da mesclagem de ramos então ele aponta para vários commits. Assim o histórico de commits de um projeto se parece com isso:
 
 ![](imagens/historico_de_commits.png)
+Fonte: https://git-scm.com
 
 ### Ramo *master*
 
@@ -23,21 +25,25 @@ Um ramo nada mais é que um ponteiro que leva à um commit. Quando executamos `g
 Assim a estrutura acima na verdade se parece com isso, quando levamos o ramo `master` e o HEAD em consideração:
 
 ![](imagens/ramo_master.png)
+Fonte: https://git-scm.com
 
 ### Criando novos ramos
 
 Para criar novos ramos execute `git branch <nome_do_ramo>`, esse comando irá criar um novo ponteiro que leva ao commit que você está no momento, mas a partir do momento que você mover o HEAD para esse novo ramo e começar a commitar o ponteiro irá avançar automaticamente e irá passar a apontar para esses outros commits. Se executarmo por exemplo `git branch testing` teríamos algo assim na estrutura que estamos considerando:
 
 ![](imagens/novo_ramo.png)
+Fonte: https://git-scm.com
 
 ### Trocando de ramo
 
 Para trocar de ramo execute `git checkout <nome_do_ramo>`. Vamos supor que, na estrutura que estamos, eu troque de ramo e faça um novo commit. O que teríamos seria parecido com isso:
 
 ![](imagens/trocando_de_ramo.png)
+Fonte: https://git-scm.com
 
 Se eu voltar para o ramo master e fizer um novo commit o ramo master também se moverá para frente, entretanto as duas novas adições (a que fiz no ramo master e a que fiz no ramo testing) estão completamente isoladas:
 
 ![](imagens/dois_ramos.png)
+Fonte: https://git-scm.com
 
 É a partir dessa noção que trabalharemos com ramos no Git daqui para frente.
