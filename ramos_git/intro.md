@@ -47,3 +47,5 @@ Se eu voltar para o ramo master e fizer um novo commit o ramo master também se 
 Fonte: https://git-scm.com
 
 É a partir dessa noção que trabalharemos com ramos no Git daqui para frente.
+
+Ir para: [O básico de ramos no Git](basico_de_ramos.md)
