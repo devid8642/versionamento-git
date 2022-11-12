@@ -27,9 +27,11 @@ Após isso execute `git commit` para finalizar a mesclagem.
 
 O comando `git branch` possui algumas opções interessantes:
 
-1. `git branch` lista de forma simples os ramos do seu repo Git. (* significa o ramo em que você está atualmente)
+1. `git branch` lista de forma simples os ramos do seu repo Git. (\* significa o ramo em que você está atualmente)
 2. `git branch -v` lista os ramos e o último commit de cada ramo.
 3. `git branch --no-merged´ irá listar todos os ramos que não forma mesclados ainda ao ramo em que você está.
 4. `git branch --merged` irá listar todos os ramos que já forma mesclados ao ramo em que você está.
 
 Existem outros parâmetros úteis mas esses são os principais.
+
+Ir para: [Fluxos de trabalho com ramos](fluxo_de_ramos.md)
