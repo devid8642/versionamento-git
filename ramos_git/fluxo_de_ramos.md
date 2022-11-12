@@ -15,3 +15,21 @@ Partindo do ramo master, quando mais se desce nesse sistema de ramos mais instá
 ## Ramos por tópicos
 
 O fluxo de trabalho com tópicos pode ser usado em projetos de qualquer tamanho e consiste basicamente em criar um ramo para cada desenvolvimento e ir fazendo as mesclagens de três vias a medida que for necessário. Parece óbvio trabalhar assim com o Git mas seria muito difícil fazer isso com muitos outros sistemas de versionamento.
+
+## Ramos remotos
+
+Ramos remotos são como os locais: ponteiros que referenciam algum commit no repositório remoto em questão. Localmente você pode visualizar os ramos remotos executando `git branch -r`. Localmente os ramos remotos são apenas rastreados e não criados de fato, a menos que você especifique. Isso significa que você não pode "entrar" e trabalhar nesses ramos de fato na verdade você pode apenas baixar o que foi feito em cada um desses ramos e adicionar esses trabalhos aos seus próprios ramos locais.
+
+Para fazer a mesclagem de trabalhos realizados em ramos remotos com seus ramos locais execute `git merge <ramo_remoto>`. Se você quiser criar um ramo local que seja uma cópia de um ramo remoto para trabalhar localmente execute `git checkout -b <novo_ramo_local> <ramo_remeto>`. Isso também irá criar o *rastreamento* entre esse ramo local e o ramo remoto, isos significa que tudo que você baixar e mesclar do ramo remoto irá para esse ramo loca. Por exemplo se você executar `git pull` ele irá enviar os novos trabalhos para esse ramo e não para o ramo master, a não ser que você especifique.
+
+## git push
+
+Com o `git push` você pode enviar o trabalho que você fez em algum ramo para um ramo remoto. A sintaxe é: `git push <remote> <ramo_local>:<ramo_remoto>`. 
+
+## git pull
+
+Esse comando basicamente busca qual ramo remoto o ramo local atual está rastreando e executa um `git fetch` e `git merge` adiantando um pouco de trabalho. Em cenários simples pode ser bom, mas deve-se evitar usar esse comando.
+
+## Deletando ramos remotos
+
+Para deletar ramos remotos execute: `git push <remote> -d <nome_do_ramo>`.
