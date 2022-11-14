@@ -33,3 +33,5 @@ Esse comando basicamente busca qual ramo remoto o ramo local atual está rastrea
 ## Deletando ramos remotos
 
 Para deletar ramos remotos execute: `git push <remote> -d <nome_do_ramo>`.
+
+Ir para: [Git rebase](git_rebase.md)
